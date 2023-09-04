@@ -6,17 +6,20 @@
     <title>Model Viewer</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
-<body>
+<body>  
+ 
+        <model-viewer
+        id="model_viewer"
+        src="./assets/object2.glb"
+        alt="Sculpture"
+        camera-controls touch-action="pan-y"
+        ar
+        camera-orbit="45deg 55deg 4m"
+        ></model-viewer>
+  
+
     
-            <model-viewer
-            id="model_viewer"
-            src="./assets/object2.glb"
-            alt="Sculpture"
-            camera-controls touch-action="pan-y"
-            ></model-viewer>
         
-        </div>
-      </div>   
     <script type="module" src="script.js"></script>
 
      <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.1.1/model-viewer.min.js"></script>
