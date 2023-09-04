@@ -6,14 +6,21 @@
     <title>Model Viewer</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
-<body>  
+<body> 
+    <style>
+        #model_viewer {
+            width: 300px;
+            height: 300px;
+        }
+    </style> 
  
-        <model-viewer
-        id="model_viewer"
-        src="./assets/object2.glb"
-        alt="Sculpture"
-        camera-controls touch-action="pan-y"
-        ></model-viewer>
+    <model-viewer
+    id="model_viewer"
+    src="./assets/object2.glb"
+    alt="Sculpture"
+    camera-controls 
+    touch-action="pan-y"
+    ></model-viewer>
   
 
     
