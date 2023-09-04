@@ -8,14 +8,29 @@
 </head>
 <body> 
     <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh; /* Asegura que el contenido ocupe al menos el alto de la ventana */
+            overflow: hidden; /* Evita la barra de desplazamiento vertical */
+        }
+
+        /* Estilo para el div */
         #model_viewer {
-            width: 300px;
-            height: 300px;
-            margin: 250px 250px ;
-            overflow: hidden;
+            width: 200px; /* Ancho de tu div */
+            height: 200px; /* Alto de tu div */
+            background-color: #f0f0f0; /* Color de fondo (puedes cambiarlo) */
+            text-align: center; /* Centra el contenido horizontalmente */
+            line-height: 200px; /* Centra el contenido verticalmente */
+        }
+    </style>
+        
             
         
-        }
+        
     </style> 
  
     <model-viewer
